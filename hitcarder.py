@@ -229,6 +229,7 @@ if __name__ == "__main__":
 
     dingtalk_token = os.environ.get('DINGTALK_TOKEN')
     if dingtalk_token:
+    	msg = 'luckky'+msg
         ret = message.dingtalk(msg, dingtalk_token)
         print('send_dingtalk_message', ret)
 
