@@ -49,7 +49,7 @@ def serverchan(text, desp, serverchan_key, tries=5):
 
 
 if __name__ == "__main__":
-    msg = "打卡"*1000
+    msg = "luckky打卡成功"
     dingtalk_token = os.environ.get('DINGTALK_TOKEN')
     if dingtalk_token:
         ret = dingtalk(msg, dingtalk_token)
